@@ -4,7 +4,8 @@ SQL for schema development and queries.
 
 Command line interface and also recommendations for GUI tools.
 
-## Examples
+### SELECT
+---
 
 #### Base SELECT Query
 
