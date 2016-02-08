@@ -32,14 +32,33 @@ It is easy to install and set up, so you can quickly get to work constructing da
 
 ## Basic Queries
 
-#### Base SELECT Query
+#### Create
+	INSERT INTO employees (first_name, last_name, department, location) 
+	VALUES ('John', 'Smith', 'Developer', 'SF Bay Area');
 
-	SELECT * FROM Employees;
+#### Read
+	SELECT first_name, last_name, department, location FROM employees;
 
-#### Using Columns
+#### Update
+	UPDATE employees SET email = 'john.smith@acme.com' WHERE id = 10;
 
-	SELECT FirstName, LastName FROM Employees;
+#### Delete
+	DELETE FROM employees WHERE id = 10;
 
-#### Using ORDER BY
+#### Join
+	SELECT m.movie_id, m.title, c.category_name, m.edition, m.release_year, m.running_time
+	FROM Movie m
+	JOIN Category c ON c.category_id = m.category_id
+	ORDER BY m.title ASC;
 
-	SELECT FirstName, LastName From Employees ORDER BY LastName ASC;
+#### Group By
+	SELECT c.category_name, COUNT(c.category_id)
+	FROM Movie m
+	JOIN Category c ON c.category_id = m.category_id
+	GROUP BY c.category_name
+	ORDER BY c.category_name ASC;
+
+#### Limit Record Set
+	SELECT m.movie_id, m.title, m.edition, m.time_stamp
+	FROM Movie m
+	ORDER BY m.movie_id DESC LIMIT 10;
