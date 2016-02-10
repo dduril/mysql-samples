@@ -62,3 +62,37 @@ It is easy to install and set up, so you can quickly get to work constructing da
 	SELECT m.movie_id, m.title, m.edition, m.time_stamp
 	FROM Movie m
 	ORDER BY m.movie_id DESC LIMIT 10;
+
+## Administration
+
+#### CREATE USER
+	mysql> CREATE USER myUser@localhost IDENTIFIED BY '[password]';
+
+#### RENAME USER
+	mysql> RENAME USER myUser TO newUser;
+
+#### DROP USER
+	mysql> DROP USER newUser;
+
+#### GRANT
+	mysql> GRANT select, insert, update, delete ON movies.* TO myUser@localhost;
+
+#### REVOKE
+	mysql> REVOKE all privileges ON movies.* FROM myUser;
+
+#### Execute SQL File
+	mysql> source movies.sql;
+
+#### MySQL Dump File
+
+Run from the bin folder - password goes right next -p.
+No semi-colon at end of command.
+
+	bin> mysqldump -h localhost -u [user] -p[password] [database_name] > C:\development\sql\movie_db_dump_file.sql
+
+#### MySQL Restore
+
+Run from the bin folder - password goes right next -p.
+
+	bin> mysql -h localhost -u [user] -p[password] [database_name] < C:\development\sql\movie_db_dump_file.sql
+
