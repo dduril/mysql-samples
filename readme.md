@@ -9,6 +9,12 @@ It is easy to install and set up, so you can quickly get to work constructing da
 - **<a href="http://dev.mysql.com/" target="_blank">MySQL Developer Zone</a>**
 - **<a href="http://www.mysql.com/products/workbench/" target="_blank">MySQL Workbench</a>**
 
+## Sample Databases
+
+- **<a href="https://dev.mysql.com/doc/employee/en/" target="_blank">Employees</a>**
+- **<a href="https://dev.mysql.com/doc/sakila/en/" target="_blank">Sakila</a>**
+- **<a href="https://dev.mysql.com/doc/world-setup/en/" target="_blank">World</a>**
+
 ## Environment
 
 ###SELECT your MySQL version and the current date
