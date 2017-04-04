@@ -17,7 +17,7 @@ It is easy to install and set up, so you can quickly get to work constructing da
 
 ## Environment
 
-### SELECT your MySQL version and the current date
+#### SELECT your MySQL version and the current date
 
 	mysql> SELECT VERSION(), CURRENT_DATE;
 
