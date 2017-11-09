@@ -5,15 +5,15 @@
 It is easy to install and set up, so you can quickly get to work constructing databases for managing your collections of movies, comics, music, recipes, or just about anything. MySQL is often paired with PHP for web development projects and is, in fact, the backend to many popular CMS (Content Management Systems) like WordPress and Concrete5.
 
 ## Reference
-- **[MySQL](<a href="http://www.mysql.com/)**
-- **[MySQL Developer Zone](<a href="http://dev.mysql.com/)**
-- **[MySQL Workbench](<a href="http://www.mysql.com/products/workbench/)**
+- **[MySQL](http://www.mysql.com/)**
+- **[MySQL Developer Zone](http://dev.mysql.com/)**
+- **[MySQL Workbench](http://www.mysql.com/products/workbench/)**
 
 ## Sample Databases
 
-- **[Employees](<a href="https://dev.mysql.com/doc/employee/en/)**
-- **[Sakila](<a href="https://dev.mysql.com/doc/sakila/en/)**
-- **[World](<a href="https://dev.mysql.com/doc/world-setup/en/)**
+- **[Employees](https://dev.mysql.com/doc/employee/en/)**
+- **[Sakila](https://dev.mysql.com/doc/sakila/en/)**
+- **[World](https://dev.mysql.com/doc/world-setup/en/)**
 
 ## Environment
 
