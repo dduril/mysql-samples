@@ -2,7 +2,7 @@
 
 **MySQL** is one of the most widely used open-source relational database management system (RDBMS).
 
-It is easy to install and set up, so you can quickly get to work constructing databases for managing your collections of movies, comics, music, recipes, or just about anything. MySQL is often paired with PHP for web development projects and is, in fact, the backend to many popular CMS (Content Management Systems) like WordPress and Concrete5.
+It is easy to install and set up, so you can quickly get to work constructing databases for managing your data collections of movies, music, etc. MySQL is often paired with PHP for web development projects and is, in fact, the backend to many popular CMS (Content Management Systems) like WordPress and Concrete5.
 
 ## Reference
 - **[MySQL](http://www.mysql.com/)**
